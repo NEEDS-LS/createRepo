@@ -10,8 +10,8 @@
 
 
 createRepo<-function(nome){
-  dir.create(nome)
-  setwd(paste("./", nome, sep=""))
+  #dir.create(nome)
+  #setwd(paste("./", nome, sep=""))
   dir.create("data")
   dir.create("data_use")
   dir.create("scripts")
